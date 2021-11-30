@@ -1,0 +1,338 @@
+[
+  {
+    "name": "AdColony",
+    "initializerClass": "com.google.ads.mediation.adcolony.AdColonyMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.adcolony.sdk.AdColony",
+        "requiredPermissions": [
+          "android.permission.INTERNET",
+          "android.permission.ACCESS_NETWORK_STATE"
+        ],
+        "optionalPermissions": [
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE"
+        ],
+        "requiredActivities": [
+          "com.adcolony.sdk.AdColonyInterstitialActivity"
+        ],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "AdMob",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.google.android.gms.ads.MobileAds",
+        "requiredPermissions": [
+          "android.permission.INTERNET"
+        ],
+        "optionalPermissions": [],
+        "requiredActivities": [
+          "com.google.android.gms.ads.AdActivity"
+        ],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "AppLovin",
+    "initializerClass": "com.google.ads.mediation.applovin.AppLovinMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.applovin.sdk.AppLovinSdk",
+        "requiredPermissions": [],
+        "optionalPermissions": [],
+        "requiredActivities": [
+          "com.applovin.adview.AppLovinConfirmationActivity",
+          "com.applovin.adview.AppLovinInterstitialActivity"
+        ],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "Chartboost",
+    "initializerClass": "com.google.ads.mediation.chartboost.ChartboostMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.chartboost.sdk.Chartboost",
+        "requiredPermissions": [],
+        "optionalPermissions": [],
+        "requiredActivities": [
+          "com.chartboost.sdk.CBImpressionActivity"
+        ],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "Facebook",
+    "initializerClass": "com.google.ads.mediation.facebook.FacebookMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.facebook.ads.Ad",
+        "requiredPermissions": [],
+        "optionalPermissions": [],
+        "requiredActivities": [],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "InMobi",
+    "initializerClass": "com.google.ads.mediation.inmobi.InMobiMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.inmobi.sdk.InMobiSdk",
+        "requiredPermissions": [],
+        "optionalPermissions": [],
+        "requiredActivities": [
+          "com.inmobi.rendering.InMobiAdActivity"
+        ],
+        "requiredReceivers": [
+          "com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver"
+        ],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "MoPub",
+    "initializerClass": "com.google.ads.mediation.mopub.MoPubMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.mopub.mobileads.MoPubErrorCode",
+        "requiredPermissions": [],
+        "optionalPermissions": [
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.ACCESS_COARSE_LOCATION"
+        ],
+        "requiredActivities": [
+          "com.mopub.mobileads.MoPubActivity",
+          "com.mopub.mobileads.MraidActivity",
+          "com.mopub.common.MoPubBrowser",
+          "com.mopub.mobileads.MraidVideoPlayerActivity",
+          "com.mopub.mobileads.RewardedMraidActivity"
+        ],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "Tapjoy",
+    "initializerClass": "com.google.ads.mediation.tapjoy.TapjoyMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.tapjoy.Tapjoy",
+        "requiredPermissions": [],
+        "optionalPermissions": [],
+        "requiredActivities": [
+          "com.tapjoy.TJAdUnitActivity",
+          "com.tapjoy.mraid.view.ActionHandler",
+          "com.tapjoy.mraid.view.Browser",
+          "com.tapjoy.TJContentActivity"
+        ],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "Unity Ads",
+    "initializerClass": "com.google.ads.mediation.unity.UnityMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.unity3d.ads.UnityAds",
+        "requiredPermissions": [],
+        "optionalPermissions": [],
+        "requiredActivities": [],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "Vungle",
+    "initializerClass": "com.google.ads.mediation.vungle.VungleMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.vungle.publisher.AdConfig",
+        "requiredPermissions": [],
+        "optionalPermissions": [],
+        "requiredActivities": [
+          "com.vungle.publisher.VideoFullScreenAdActivity",
+          "com.vungle.publisher.MraidFullScreenAdActivity"
+        ],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      },
+      {
+        "sdkDetectionClass": "com.vungle.warren.AdConfig",
+        "requiredPermissions": [
+          "android.permission.INTERNET",
+          "android.permission.ACCESS_NETWORK_STATE"
+        ],
+        "requiredActivities": [
+          "com.vungle.warren.ui.VungleActivity",
+          "com.vungle.warren.ui.VungleFlexViewActivity"
+        ],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "Sample Network",
+    "initializerClass": "com.google.ads.mediation.sample.SampleMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.google.ads.mediation.sample.sdk.SampleErrorCode",
+        "requiredPermissions": [],
+        "optionalPermissions": [],
+        "requiredActivities": [],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "i-mobile",
+    "initializerClass": "com.google.ads.mediation.imobile.IMobileMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "jp.co.imobile.sdkads.android.ImobileSdkAd",
+        "requiredPermissions": [],
+        "optionalPermissions": [],
+        "requiredActivities": [],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "IronSource",
+    "initializerClass": "com.google.ads.mediation.ironsource.IronSourceMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.ironsource.mediationsdk.IronSource",
+        "requiredPermissions": [
+          "android.permission.INTERNET",
+          "android.permission.ACCESS_NETWORK_STATE"
+        ],
+        "optionalPermissions": [],
+        "requiredActivities": [
+          "com.ironsource.sdk.controller.ControllerActivity",
+          "com.ironsource.sdk.controller.InterstitialActivity",
+          "com.ironsource.sdk.controller.OpenUrlActivity"
+        ],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "maio",
+    "initializerClass": "com.google.ads.mediation.maio.MaioMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "jp.maio.sdk.android.MaioAds",
+        "requiredPermissions": [],
+        "optionalPermissions": [],
+        "requiredActivities": [
+          "jp.maio.sdk.android.AdFullscreenActivity",
+          "jp.maio.sdk.android.HtmlBasedAdActivity"
+        ],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "Nend",
+    "initializerClass": "com.google.ads.mediation.nend.NendMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "net.nend.android.NendAdView",
+        "requiredPermissions": [],
+        "optionalPermissions": [],
+        "requiredActivities": [],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "myTarget",
+    "initializerClass": "com.google.ads.mediation.mytarget.MyTargetMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.my.target.ads.MyTargetView",
+        "requiredPermissions": [
+          "android.permission.INTERNET",
+          "android.permission.ACCESS_NETWORK_STATE"
+        ],
+        "optionalPermissions": [],
+        "requiredActivities": [],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+
+      }
+    ]
+  },
+  {
+    "name": "Verizon Media",
+    "initializerClass": "com.google.ads.mediation.verizon.VerizonMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.verizon.ads.VASAds",
+        "requiredPermissions": [],
+        "optionalPermissions": [],
+        "requiredActivities": [],
+        "requiredReceivers": [],
+        "requiredProviders": [],
+        "requiredMetadata": []
+      }
+    ]
+  },
+  {
+    "name": "DU Ad Platform",
+    "initializerClass": "com.google.ads.mediation.duad.DuAdMediationAdapter",
+    "sdks": [
+      {
+        "sdkDetectionClass": "com.duapps.ad.AdError",
+        "requiredPermissions": ["android.permission.INTERNET",
+          "android.permission.ACCESS_NETWORK_STATE"],
+        "optionalPermissions": [],
+        "requiredActivities": [],
+        "requiredReceivers": [],
+        "requiredProviders": ["com.duapps.ad.stats.DuAdCacheProvider"],
+        "requiredMetadata": ["app_license"]
+      }
+    ]
+  }
+]
